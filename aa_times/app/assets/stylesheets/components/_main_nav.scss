@@ -1,0 +1,39 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.right-nav > ul > li {
+  margin: 6px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin: 6px;
+}
+
+
+.right-nav i {
+  font-size: 20px
+}
